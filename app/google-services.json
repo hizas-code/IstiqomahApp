@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "165754313315",
+    "firebase_url": "https://istiqomah-77311.firebaseio.com",
+    "project_id": "istiqomah-77311",
+    "storage_bucket": "istiqomah-77311.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165754313315:android:d875f5a95924eee0",
+        "android_client_info": {
+          "package_name": "motion.istiqomah.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165754313315-ejk5lgu2b6n1ofsr3b4i2qj91ksem4k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQPHuE4d9BU-0A3OLV0mvB2DrSV8ehANo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
