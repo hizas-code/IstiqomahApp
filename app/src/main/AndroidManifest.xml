@@ -5,14 +5,10 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-<<<<<<< HEAD
-=======
-
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
->>>>>>> 669aafca322115517c42ce155f3e5b4be742e4ef
 
     <application
         android:allowBackup="true"
@@ -27,13 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".RegistrasiActivity"></activity>
-=======
         <activity
-            android:name=".LoginActivity_Istiqomah"
-            android:label="@string/title_activity_login__istiqomah"></activity>
->>>>>>> 669aafca322115517c42ce155f3e5b4be742e4ef
+            android:name=".RegistrasiActivity"
+            android:label="Halaman Registrasi">
+        </activity>
+
     </application>
 
 </manifest>
