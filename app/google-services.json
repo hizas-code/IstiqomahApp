@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "165754313315-9qkeo8mnnfufhc3m1g90saqsvv4n2ai2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "motion.istiqomah.com",
+            "certificate_hash": "4A131398351F9E622EB727E2BAC42D20AD86538B"
+          }
+        },
+        {
           "client_id": "165754313315-ejk5lgu2b6n1ofsr3b4i2qj91ksem4k4.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165754313315-ejk5lgu2b6n1ofsr3b4i2qj91ksem4k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
