@@ -34,7 +34,14 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        btn_register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, RegistrasiActivity.class);
+                //intent.putExtra("username",txt_username.getText());
+                startActivity(intent);
+            }
+        });
 
 
     }
