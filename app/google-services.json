@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "165754313315-ttipoh8423kep0q6thp5uvb0qdeatvdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "motion.istiqomah.com",
+            "certificate_hash": "732B54E1C6E7E3A8CB87A7667F39A113F1A142A0"
+          }
+        },
+        {
+          "client_id": "165754313315-0lm1aq4diqotkasgmj0g2ddno2eqma3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "motion.istiqomah.com",
+            "certificate_hash": "2C893130EB95FBE8803E65AFDF05C9B1962E8213"
+          }
+        },
+        {
           "client_id": "165754313315-9qkeo8mnnfufhc3m1g90saqsvv4n2ai2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

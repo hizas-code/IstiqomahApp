@@ -29,6 +29,7 @@ public class RegistrasiActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_registrasi);
 
         username = (EditText)findViewById(R.id.username);
@@ -50,30 +51,16 @@ public class RegistrasiActivity extends AppCompatActivity {
                     // User is signed out
                     Log.d(TAG, "onAuthStateChanged:signed_out");
                 }
-                // ...
             }
         };
-        // ...
-        String stringemail = username.getText().toString();
-        String stringpass = password.getText().toString();
-        mAuth.createUserWithEmailAndPassword(stringemail, stringpass)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        Log.d(TAG, "createUserWithEmail:onComplete:" + task.isSuccessful());
-
-                        // If sign in fails, display a message to the user. If sign in succeeds
-                        // the auth state listener will be notified and logic to handle the
-                        // signed in user can be handled in the listener.
-
-                        if (!task.isSuccessful()) {
-                            Toast.makeText(RegistrasiActivity.this, "Sign Up Gagal",
-                                    Toast.LENGTH_SHORT).show();
-                        }
-
-                        // ...
-                    }
-                });
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String stringemail = username.getText().toString();
+                String stringpass = password.getText().toString();
+                mAuth.createUserWithEmailAndPassword(stringemail, stringpass);
+            }
+        });
     }
     @Override
     public void onStart() {
