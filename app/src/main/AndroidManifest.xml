@@ -25,9 +25,8 @@
         </activity>
         <activity
             android:name=".RegistrasiActivity"
-            android:label="Halaman Registrasi">
-        </activity>
-
+            android:label="Halaman Registrasi"></activity>
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>
